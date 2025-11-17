@@ -1,5 +1,9 @@
+## components/layouts/Footer.tsx
 
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'; 
+import { 
+FaFacebook, 
+FaTwitter,
+FaInstagram } from 'react-icons/fa'; 
 
 const Footer: React.FC = () => {
   return (
@@ -17,13 +21,19 @@ const Footer: React.FC = () => {
           <h4 className="text-lg font-semibold mb-4">Useful Links</h4>
           <ul>
             <li className="mb-2">
-              <a href="/about" className="text-gray-400 hover:text-white transition duration-300">About Us</a>
+              <a href="/about" className="text-gray-400 hover:text-white transition duration-300">
+                About Us
+              </a>
             </li>
             <li className="mb-2">
-              <a href="/services" className="text-gray-400 hover:text-white transition duration-300">Services</a>
+              <a href="/services" className="text-gray-400 hover:text-white transition duration-300">
+                Services
+              </a>
             </li>
             <li className="mb-2">
-              <a href="/contact" className="text-gray-400 hover:text-white transition duration-300">Contact Us</a>
+              <a href="/contact" className="text-gray-400 hover:text-white transition duration-300">
+                Contact Us
+              </a>
             </li>
           </ul>
         </div>
